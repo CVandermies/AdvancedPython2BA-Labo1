@@ -11,7 +11,7 @@ def fact(n):
         return 1
     else :
         return n*fact(n-1)
-
+print(fact(n))
 
 def roots(a,b,c):
     if a==0:
@@ -26,6 +26,16 @@ def roots(a,b,c):
             return (x1,x2)    
         else :
             return ('Impossible')
+print(roots(a,b,c))
 
-print(roots(1,4,3))
+def ff(x):
+    return x
+def integrate(function,lower,upper):
+    pas = 100000
+    h = (upper-lower)/pas
+    result = 0
+    for i in range(0,n-1):
+        result += h * function(lower + h*i)
+    return result
+
             
