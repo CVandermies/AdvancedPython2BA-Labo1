@@ -38,6 +38,4 @@ def integrate(function,lower,upper):
         result += h * function(lower + h*i)
     return result
 
-    print(x)
-
             
